@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS HRManagementDB;
+
+CREATE DATABASE HRManagementDB;
+
+USE HRManagementDB;
