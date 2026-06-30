@@ -1,24 +1,21 @@
 # HR Database Management using SQL
 
-A comprehensive SQL project that demonstrates database design, data cleaning, normalization, advanced SQL querying, and HR analytics using a real-world Kaggle dataset.
+A comprehensive SQL project that demonstrates database design, data cleaning, normalization, advanced SQL querying, and HR analytics using a real-world HR dataset from Kaggle.
 
 ---
 
 # 📌 Project Overview
 
-This project uses the IBM HR Analytics Employee Attrition dataset from Kaggle to build a normalized HR database using MySQL.
+This project is built using the **IBM HR Analytics Employee Attrition Dataset** from Kaggle. It demonstrates the complete SQL development lifecycle, from importing raw data to designing a normalized relational database and generating meaningful HR business insights.
 
-The project demonstrates the complete data engineering and SQL workflow, including:
+The project covers:
 
-- Importing raw HR data
-- Data cleaning
+- Importing raw HR data into MySQL
+- Data cleaning and validation
 - Database normalization (3NF)
-- Advanced SQL analysis
-- Business reporting
-- Views
-- Stored Procedures
-- Triggers
-- Indexes
+- Advanced SQL querying
+- Views, Stored Procedures, Triggers, and Indexes
+- HR analytics and reporting
 
 ---
 
@@ -36,11 +33,12 @@ The project demonstrates the complete data engineering and SQL workflow, includi
 
 **Source:** IBM HR Analytics Employee Attrition Dataset (Kaggle)
 
-**Dataset Statistics**
+### Dataset Statistics
 
-- Total Records: 1470
-- Total Columns: 35
-- Data Type: HR Analytics Dataset
+- Total Records: **1470**
+- Total Columns: **35**
+- Database: **MySQL**
+- Domain: **Human Resources (HR)**
 
 ---
 
@@ -69,9 +67,7 @@ Business Reports
 
 # 🗄️ Database Design
 
-The database was normalized into multiple relational tables.
-
-### Tables
+The database was normalized into the following relational tables:
 
 - Employees
 - Departments
@@ -79,6 +75,16 @@ The database was normalized into multiple relational tables.
 - Payroll
 - Performance
 - Experience
+
+---
+
+# 📄 Entity Relationship (ER) Diagram
+
+The following ER diagram represents the normalized database schema and relationships between all tables.
+
+> **ER Diagram Location:** `ER_Diagram/HR_Database_ER_Diagram.png`
+
+![HR Database ER Diagram](ER_Diagram/HR_Database_ER_Diagram.png)
 
 ---
 
@@ -106,14 +112,14 @@ This project demonstrates the following SQL concepts:
 # 📁 Project Structure
 
 ```
-HR-Database-Management-SQL
+HR-Database-Management-SQL/
 │
-├── Dataset
-│   ├── Raw_Data
-│   ├── Cleaned_Data
-│   └── Normalized_Data
+├── Dataset/
+│   ├── Raw_Data/
+│   ├── Cleaned_Data/
+│   └── Normalized_Data/
 │
-├── SQL
+├── SQL/
 │   ├── 01_Create_Database.sql
 │   ├── 02_Create_Staging_Table.sql
 │   ├── 03_Data_Cleaning.sql
@@ -127,16 +133,11 @@ HR-Database-Management-SQL
 │   ├── 11_Triggers.sql
 │   └── 12_Indexes.sql
 │
-├── ER_Diagram
-│
-├── Reports
-│
-├── Screenshots
-│
+├── ER_Diagram/
+├── Reports/
+├── Screenshots/
 ├── README.md
-│
 ├── LICENSE
-│
 └── .gitignore
 ```
 
@@ -144,16 +145,16 @@ HR-Database-Management-SQL
 
 # ⭐ Key Features
 
-- Used a real-world HR dataset from Kaggle
-- Built a normalized relational database (3NF)
-- Imported and cleaned raw employee data
+- Imported a real-world HR dataset from Kaggle
+- Cleaned and validated raw employee data
+- Designed a normalized relational database (3NF)
 - Created multiple related database tables
 - Implemented advanced SQL queries
-- Developed reusable SQL views
-- Built stored procedures for HR operations
-- Implemented triggers for audit logging and validation
-- Optimized queries using indexes
-- Generated business reports for HR analytics
+- Developed reusable SQL Views
+- Created Stored Procedures for HR operations
+- Implemented Triggers for audit logging and data validation
+- Optimized query performance using Indexes
+- Generated HR business reports and analytics
 
 ---
 
@@ -161,14 +162,14 @@ HR-Database-Management-SQL
 
 The project answers several HR business questions, including:
 
-- Department-wise employee count
+- Employee distribution across departments
 - Department-wise average salary
 - Highest-paid employees
-- Attrition analysis
+- Employee attrition analysis
 - Overtime analysis
 - Employee performance analysis
 - Salary distribution
-- Experience analysis
+- Experience and tenure analysis
 - Job role analysis
 - Work-life balance insights
 
@@ -176,24 +177,26 @@ The project answers several HR business questions, including:
 
 # 📷 Project Screenshots
 
-Project screenshots are available in the **Screenshots** folder.
+The **Screenshots** folder contains images demonstrating:
+
+- Database Schema
+- SQL Query Results
+- Views
+- Stored Procedures
+- Triggers
+- Indexes
+- ER Diagram
 
 ---
 
-# 📄 ER Diagram
+# 🚀 Future Enhancements
 
-The database ER Diagram is available in the **ER_Diagram** folder.
-
----
-
-# 🚀 Future Improvements
-
-- Integrate Power BI dashboard
-- Build HR analytics dashboard using Python
-- Create REST APIs using Flask
-- Deploy database on cloud
-- Add role-based access control
-- Automate ETL pipeline
+- Build an HR Analytics Dashboard using Power BI
+- Perform HR analytics using Python (Pandas)
+- Develop REST APIs using Flask
+- Deploy the database on a cloud platform
+- Implement role-based access control
+- Automate the ETL pipeline
 
 ---
 
@@ -201,14 +204,14 @@ The database ER Diagram is available in the **ER_Diagram** folder.
 
 **Rakesh Yadav Podamekala**
 
-GitHub:
+**GitHub:**  
 https://github.com/Rakeshyadav2005
 
-LinkedIn:
-(Add your LinkedIn Profile URL)
+**LinkedIn:**  
+*(Add your LinkedIn profile URL here)*
 
 ---
 
 # 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
