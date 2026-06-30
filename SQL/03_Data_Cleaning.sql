@@ -50,3 +50,38 @@ SELECT DISTINCT Gender from hr_employee_clean;
 SELECT DISTINCT MaritalStatus from hr_employee_clean;
 SELECT DISTINCT EducationField from hr_employee_clean;
 SELECT DISTINCT Attrition from hr_employee_clean;
+
+-- Validate Numeric Ranges
+SELECT
+MIN(Age) AS MinimumAge,
+MAX(Age) AS MaximumAge
+FROM HR_Employee_Clean;
+
+SELECT
+MIN(MonthlyIncome),
+MAX(MonthlyIncome)
+FROM HR_Employee_Clean;
+
+SELECT
+MIN(YearsAtCompany),
+MAX(YearsAtCompany)
+FROM HR_Employee_Clean;
+
+SELECT
+MIN(TotalWorkingYears),
+MAX(TotalWorkingYears)
+FROM HR_Employee_Clean;
+
+-- Check for Invalid Values
+SELECT *
+FROM HR_Employee_Clean
+WHERE Age < 18;
+
+SELECT *
+FROM HR_Employee_Clean
+WHERE MonthlyIncome <= 0;
+
+-- Final Verification
+SELECT *
+FROM HR_Employee_Clean
+LIMIT 5;
