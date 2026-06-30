@@ -1,0 +1,10 @@
+JobRoleID,JobRoleName,DepartmentID
+1,"Sales Executive",NULL
+2,"Research Scientist",NULL
+3,"Laboratory Technician",NULL
+4,"Manufacturing Director",NULL
+5,"Healthcare Representative",NULL
+6,Manager,NULL
+7,"Sales Representative",NULL
+8,"Research Director",NULL
+9,"Human Resources",NULL
